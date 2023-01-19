@@ -1,0 +1,11 @@
+import { Box, Text } from "@chakra-ui/react";
+
+function Home() {
+  return (
+    <Box>
+      <Text>hom</Text>
+    </Box>
+  );
+}
+
+export default Home;
