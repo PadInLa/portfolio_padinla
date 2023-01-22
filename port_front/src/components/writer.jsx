@@ -1,11 +1,24 @@
 import ReactTypingEffect from "react-typing-effect";
+import "@fontsource/cambo";
+import "@fontsource/caladea";
 
-const Writer = ({ text }) => (
+const Writer = () => (
   <ReactTypingEffect
-    text={[`${text}`]}
-    style={{ color: "white", fontSize: "3vw" }}
-    speed="100"
-    erasespeed="50"
+    text={[
+      "a Full-Stack Web Developer.",
+      "a System Engineer.",
+      "an Artist.",
+      "a Youtuber.",
+    ]}
+    staticText="I'm"
+    style={{
+      color: "white",
+      fontSize: "2.5vw",
+      fontFamily: `"Caladea", sans-serif`,
+    }}
+    speed="50"
+    eraseSpeed="50"
+    typingDelay="100"
   ></ReactTypingEffect>
 );
 

@@ -4,6 +4,7 @@ import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "./theme/theme";
 import { BrowserRouter } from "react-router-dom";
+import "@fontsource/caladea";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

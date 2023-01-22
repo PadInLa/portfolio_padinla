@@ -1,7 +1,7 @@
 import { Box, Stack, Text, Image } from "@chakra-ui/react";
 
 const Footer = () => (
-  <Box as="footer">
+  <Box as="Footer">
     <Stack
       direction={{
         base: "row",
@@ -14,7 +14,7 @@ const Footer = () => (
       px="2rem"
     >
       <Image borderRadius="full" src="img512.png" height="2vh" />
-      <Text textColor="white">PadInLA 2023, Made with Love </Text>
+      <Text textColor="white">PadInLA 2023, Made with Love. </Text>
     </Stack>
   </Box>
 );
