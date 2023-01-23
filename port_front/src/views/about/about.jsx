@@ -13,7 +13,7 @@ export default function About() {
   return (
     <Box>
       <Fade initialScale={0.8} in={true}>
-        <Box paddingTop="10vh">
+        <Box paddingTop="5vh">
           <Center>
             <VStack
               h={{
@@ -35,12 +35,13 @@ export default function About() {
               <Heading
                 as="span"
                 margin="3.5vh"
-                textAlign="justify"
+                textAlign="center"
                 color="white"
                 fontSize={{
                   base: "2.8vw",
-                  md: "2.4vw",
-                  lg: "2.0vw",
+                  sm: "2vw",
+                  md: "2vw",
+                  lg: "2vw",
                   xl: "1.5vw",
                 }}
               >
@@ -54,10 +55,11 @@ export default function About() {
         <Box paddingLeft="9.5vw" marginBottom="15vh" paddingTop="5vh">
           <Flex
             h={{
-              base: "48vh",
+              base: "40.1vh",
+              sm: "52vh",
               md: "55vh",
               lg: "58vh",
-              xl: "65vh",
+              xl: "67vh",
             }}
             w={{
               base: "80vw",
@@ -66,6 +68,7 @@ export default function About() {
               lg: "80vw",
               xl: "80vw",
             }}
+            direction={{ base: "column", sm: "column", md: "row" }}
             bgColor="paulette.700"
             borderRadius="15px"
           >
@@ -76,23 +79,34 @@ export default function About() {
               textAlign="justify"
               color="white"
               fontSize={{
-                base: "2.8vw",
-                md: "2.4vw",
-                lg: "2.0vw",
+                base: "2.1vw",
+                md: "2vw",
+                lg: "1.7vw",
                 xl: "1.5vw",
               }}
             >
-              Amogus Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus in suscipit velit. Sed ornare condimentum nisi, vel
-              fringilla nunc. Nam sed mattis tortor. Sed semper porta justo id
-              varius. In volutpat hendrerit dolor, egestas tristique nulla.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              rutrum pulvinar rutrum. Mauris sodales cursus mi lobortis
-              vehicula.
+              I'm a Software Engineer well-trained in both Front and Back End
+              Development. My main skills are, for Front-end development
+              React/Javascript and Django/Node.js with PostgreSQL for Back-end
+              database development.
+              <Text>
+                I always strive to make my work as clean, well structured, fast
+                and maintainable as possible, that's why I'm constantly keeping
+                up to date using cutting edge technology for web development. I
+                enjoy learning by myself and I feel very comfortable working
+                with challenging and innovative projects.
+                <Text>
+                  I like to work as a part of a team because that way I can
+                  always discover new ways of approaching and solving problems,
+                  enhancing my skills along the way.
+                </Text>
+              </Text>
             </Text>
             <Image
-              marginTop="6vw"
-              marginRight="4vw"
+              marginTop={{ md: "6vw" }}
+              marginRight={{ md: "4vw" }}
+              marginLeft={{ base: "30vw", sm: "30vw", md: "0vw" }}
+              marginBottom={{ base: "30vh", sm: "30vh", md: "0vw" }}
               borderRadius="full"
               w={{
                 base: "100px",

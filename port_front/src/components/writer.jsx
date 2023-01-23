@@ -1,6 +1,6 @@
 import ReactTypingEffect from "react-typing-effect";
 import "@fontsource/cambo";
-import "@fontsource/caladea";
+import "@fontsource/montserrat";
 
 const Writer = () => (
   <ReactTypingEffect
@@ -14,7 +14,7 @@ const Writer = () => (
     style={{
       color: "white",
       fontSize: "2.5vw",
-      fontFamily: `"Caladea", sans-serif`,
+      fontFamily: `"Montserrat", sans-serif`,
     }}
     speed="50"
     eraseSpeed="50"

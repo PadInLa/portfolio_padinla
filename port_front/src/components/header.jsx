@@ -5,7 +5,7 @@ const Header = () => (
   <Box as="header">
     <Stack
       direction={{
-        base: "row",
+        base: "column",
         sm: "row",
         md: "row",
       }}
@@ -17,7 +17,7 @@ const Header = () => (
       <Link as={ReactRouterLink} to="/">
         <HStack paddingTop="1.5vh" alignContent="center">
           <Image borderRadius="full" src="img512.png" height="6vh" />
-          <Text fontSize="2vh" textColor="white">
+          <Text fontSize="15px" textColor="white">
             PadInLA
           </Text>
         </HStack>

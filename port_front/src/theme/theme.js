@@ -17,7 +17,7 @@ export const theme = extendTheme({
     }),
   },
   fonts: {
-    heading: `'Cambo', sans-serif`,
-    body: `'Caladea', sans-serif`,
+    heading: `'Montserrat', sans-serif`,
+    body: `'Montserrat', sans-serif`,
   },
 });

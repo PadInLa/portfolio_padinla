@@ -14,9 +14,7 @@ import useIsInViewport from "../../components/viewport";
 import "../home/home.css";
 
 function Home() {
-  const ref1 = useRef(null);
   const ref2 = useRef(null);
-  const inViewport1 = useIsInViewport(ref1);
   const inViewport2 = useIsInViewport(ref2);
 
   return (
@@ -56,63 +54,17 @@ function Home() {
           </VStack>
         </Box>
       </Fade>
-      <ScaleFade initialScale={0.8} in={inViewport1}>
-        <Box paddingLeft="15vw" marginTop="20vh" ref={ref1}>
-          <VStack
-            h={{
-              base: "25vh",
-              sm: "40vh",
-              md: "35vh",
-              lg: "45vh",
-              xl: "50vh",
-            }}
-            w={{
-              base: "280px",
-              sm: "420px",
-              md: "60vw",
-              lg: "55vw",
-              xl: "55vw",
-            }}
-            borderRadius="15px"
-            bgColor="paulette.700"
-          >
-            <Text
-              as="span"
-              margin="3vw"
-              textAlign="justify"
-              color="white"
-              fontSize={{
-                base: "2.8vw",
-                md: "2.4vw",
-                lg: "2.3vw",
-                xl: "1.8vw",
-              }}
-            >
-              "I have experience working with HTML, CSS, Node.js, Django, REST
-              framework and React. Currently focused on FULL-STACK careers and
-              always open to join and try on new projects.
-              <Text>
-                I enjoy learning on my own and always improving on my skills,
-                delivering a quality product every single time. I am able to
-                handle any problem that might present and bring a practical
-                solution for it."
-              </Text>
-            </Text>
-          </VStack>
-        </Box>
-      </ScaleFade>
-
       <ScaleFade initialScale={0.8} in={inViewport2}>
         <Box
           paddingLeft={{
             base: "15vw",
             sm: "15vw",
-            md: "35vw",
-            lg: "40vw",
-            xl: "40vw",
+            md: "20vw",
+            lg: "20vw",
+            xl: "22vw",
           }}
-          marginTop="20vh"
-          marginBottom="20vh"
+          marginTop="17vh"
+          marginBottom="17vh"
           ref={ref2}
         >
           <Grid
@@ -121,14 +73,14 @@ function Home() {
               sm: "60vh",
               md: "60vh",
               lg: "60vh",
-              xl: "72vh",
+              xl: "78vh",
             }}
             w={{
               base: "280px",
               sm: "420px",
               md: "60vw",
               lg: "55vw",
-              xl: "50vw",
+              xl: "55vw",
             }}
             borderRadius="15px"
             bgColor="paulette.700"
@@ -143,14 +95,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo1.png"
@@ -164,14 +116,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo2.png"
@@ -185,14 +137,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo3.png"
@@ -206,14 +158,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo4.png"
@@ -227,14 +179,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo5.png"
@@ -248,14 +200,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo6.png"
@@ -269,14 +221,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo7.png"
@@ -290,14 +242,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo8.png"
@@ -311,14 +263,14 @@ function Home() {
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               h={{
                 base: "60px",
                 sm: "100px",
                 md: "120px",
                 lg: "140px",
-                xl: "140px",
+                xl: "180px",
               }}
               borderRadius="full"
               src="Logo9.png"
